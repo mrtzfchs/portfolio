@@ -20,6 +20,12 @@ export interface Experience {
     type?: 'work' | 'education';
 }
 
+export interface Hobby {
+    name: string;
+    description?: string;
+    icon?: string;
+}
+
 export interface PortfolioData {
     name: string;
     title: string;
@@ -27,8 +33,13 @@ export interface PortfolioData {
     email: string;
     github: string;
     linkedin: string;
+    xing?: string;
     avatar?: string;
+    hobbyImage?: string;
+    aboutImage?: string;
+    aboutBio?: string;
     projects: Project[];
     skills: Skill[];
     experience: Experience[];
+    hobbies: Hobby[];
 }

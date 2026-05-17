@@ -4,11 +4,16 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
     en: {
         name: 'Moritz Fuchs',
         title: 'Lead Full Stack Developer',
-        bio: 'Passionate lead developer with expertise in Laravel, Vue.js, and modern web technologies. I lead development teams and build scalable applications with a focus on clean code and user experience.',
+        bio: 'Passionate lead developer with expertise in Laravel, Vue.js, and modern web technologies. I lead a team of developers and build scalable applications with a focus on clean code and user experience.',
         email: 'mrtzfchs@icloud.com',
         github: 'https://github.com/mrtzfchs',
-        linkedin: 'www.linkedin.com/in/moritz-fuchs-327a61289',
-        avatar: '/mfuchs.jpeg',
+        linkedin: 'https://linkedin.com/in/moritz-fuchs-327a61289',
+        xing: 'https://www.xing.com/profile/Moritz_Fuchs099410/web_profiles',
+        avatar: '/mfuchs_.jpeg',
+        hobbyImage: '/mfuchs.jpeg',
+        aboutImage: '/mfuchs_laracon.jpeg',
+        aboutBio:
+            'I love being part of the vibrant Laravel community. Attending conferences like Laracon Amsterdam helps me stay at the forefront of modern web development and connect with other passionate developers.',
         projects: [
             {
                 title: 'Mittelfrankencup',
@@ -61,7 +66,8 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
                 company: 'Mittelschule am Turm, Neustadt an der Aisch',
                 role: 'Secondary School Certificate',
                 period: '07/2015',
-                description: 'Specialization in Informatics (IT), Business English Certificate',
+                description:
+                    'Specialization in Informatics (IT), Business English Certificate',
                 type: 'education',
             },
             {
@@ -72,15 +78,36 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
                 type: 'education',
             },
         ],
+        hobbies: [
+            { name: 'Programming', icon: 'Code' },
+            { name: 'Gaming', icon: 'Gamepad2' },
+            {
+                name: 'Making Music',
+                description: "I'm a guitarist",
+                icon: 'Music',
+            },
+            { name: 'Hiking', icon: 'Mountain' },
+            {
+                name: 'Bow Shooting',
+                description: 'not at alive things',
+                icon: 'Target',
+            },
+            { name: 'Fitness', icon: 'Dumbbell' },
+        ],
     },
     de: {
         name: 'Moritz Fuchs',
         title: 'Lead Full-Stack Entwickler',
-        bio: 'Leidenschaftlicher Lead-Entwickler mit Expertise in Laravel, Vue.js und modernen Webtechnologien. Ich leite Entwicklungsteams und erstelle skalierbare Anwendungen mit Fokus auf Clean Code und User Experience.',
-        email: 'mrtzfchs@icloud.com',
+        bio: 'Leidenschaftlicher Lead-Entwickler mit Expertise in Laravel, Vue.js und modernen Webtechnologien. Ich leite ein Entwicklerteam und erstelle skalierbare Anwendungen mit Fokus auf Clean Code und User Experience.',
+        email: 'business@fox-byte.de',
         github: 'https://github.com/mrtzfchs',
         linkedin: 'www.linkedin.com/in/moritz-fuchs-327a61289',
-        avatar: '/mfuchs.jpeg',
+        xing: '#',
+        avatar: '/mfuchs_.jpeg',
+        hobbyImage: '/mfuchs.jpeg',
+        aboutImage: '/mfuchs_laracon.jpeg',
+        aboutBio:
+            'Ich liebe es, Teil der lebendigen Laravel-Community zu sein. Der Besuch von Konferenzen wie der Laracon Amsterdam hilft mir, an der Spitze der modernen Webentwicklung zu bleiben und mich mit anderen leidenschaftlichen Entwicklern zu vernetzen.',
         projects: [
             {
                 title: 'Mittelfrankencup',
@@ -112,7 +139,8 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
                 company: 'Roland Meinl Musikinstrumente GmbH & Co. KG',
                 role: 'Lead Full-Stack Entwickler',
                 period: '08/2024 - Heute',
-                description: 'Teamleitung Entwicklung, Stellvertretende Abteilungsleitung',
+                description:
+                    'Teamleitung Entwicklung, Stellvertretende Abteilungsleitung',
                 type: 'work',
             },
             {
@@ -133,7 +161,8 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
                 company: 'Mittelschule am Turm, Neustadt an der Aisch',
                 role: 'Mittlere Reife',
                 period: '07/2015',
-                description: 'Fachrichtung Informatik (EDV), Business English Abschluss',
+                description:
+                    'Fachrichtung Informatik (EDV), Business English Abschluss',
                 type: 'education',
             },
             {
@@ -142,6 +171,26 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
                 period: '09/2004',
                 description: '',
                 type: 'education',
+            },
+        ],
+        hobbies: [
+            { name: 'Gaming', description: '', icon: 'Gamepad2' },
+            {
+                name: 'Musik machen',
+                description: 'Gitarrist aus Leidenschaft',
+                icon: 'Music',
+            },
+            { name: 'Wandern', description: '', icon: 'Mountain' },
+            {
+                name: 'Bogenschießen',
+                description: 'Ausschließlich auf künstliche Ziele',
+                icon: 'Target',
+            },
+            { name: 'Fitness', description: 'Ich versuchs zumindest', icon: 'Dumbbell' },
+            {
+                name: 'Programmieren',
+                description: 'Ja, auch in meiner Freizeit...',
+                icon: 'Code',
             },
         ],
     },
