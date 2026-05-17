@@ -1,0 +1,28 @@
+{
+    "nav": {
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+    },
+    "hero": {
+        "hi": "Hi, I'm",
+        "contact": "Contact Me",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A selection of my recent work and side projects."
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My technical toolkit and areas of expertise."
+    },
+    "experience": {
+        "title": "Experience & Education",
+        "subtitle": "A timeline of my professional milestones and educational background."
+    },
+    "footer": {
+        "built_with": "Built with Laravel, Vue.js, and Tailwind CSS."
+    }
+}
