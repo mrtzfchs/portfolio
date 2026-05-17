@@ -15,8 +15,8 @@ const { t } = useI18n();
     <section id="projects" class="py-20">
         <AnimateOnShow>
             <div class="mb-12 text-center">
-                <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">{{ t('projects.title') }}</h2>
-                <p class="mt-4 text-lg text-muted-foreground">
+                <h2 class="text-3xl font-bold tracking-tight sm:text-5xl text-gradient inline-block">{{ t('projects.title') }}</h2>
+                <p class="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
                     {{ t('projects.subtitle') }}
                 </p>
             </div>
