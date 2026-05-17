@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Languages } from 'lucide-vue-next';
 
-const { locale } = useI18n();
+const { locale, t } = useI18n();
 
 const languages = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
@@ -25,9 +25,9 @@ const setLanguage = (lang: string) => {
 <template>
     <DropdownMenu>
         <DropdownMenuTrigger as-child>
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" class="hover:text-blue-accent hover:bg-blue-accent/10 transition-colors">
                 <Languages class="h-5 w-5" />
-                <span class="sr-only">Switch Language</span>
+                <span class="sr-only">{{ t('nav.switch_language') }}</span>
             </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
