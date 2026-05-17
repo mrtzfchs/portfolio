@@ -68,7 +68,14 @@ const currentData = computed(() => {
 
                 <Separator />
 
-                <About :image="currentData.aboutImage" :bio="currentData.aboutBio" />
+                <Skills :skills="currentData.skills" />
+
+                <Separator />
+
+                <About
+                    :image="currentData.aboutImage"
+                    :bio="currentData.aboutBio"
+                />
 
                 <Separator />
 
@@ -76,15 +83,14 @@ const currentData = computed(() => {
 
                 <Separator />
 
-                <Skills :skills="currentData.skills" />
-
-                <Separator />
-
                 <Experience :experience="currentData.experience" />
 
                 <Separator />
 
-                <Hobbies :hobbies="currentData.hobbies" :image="currentData.hobbyImage" />
+                <Hobbies
+                    :hobbies="currentData.hobbies"
+                    :image="currentData.hobbyImage"
+                />
             </main>
 
             <Footer :name="currentData.name" />
