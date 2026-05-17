@@ -5,7 +5,7 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
         name: 'Moritz Fuchs',
         title: 'Lead Full Stack Developer',
         bio: 'Passionate lead developer with expertise in Laravel, Vue.js, and modern web technologies. I lead a team of developers and build scalable applications with a focus on clean code and user experience.',
-        email: 'mrtzfchs@icloud.com',
+        email: 'business@fox-byte.de',
         github: 'https://github.com/mrtzfchs',
         linkedin: 'https://linkedin.com/in/moritz-fuchs-327a61289',
         xing: 'https://www.xing.com/profile/Moritz_Fuchs099410/web_profiles',
@@ -79,20 +79,28 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
             },
         ],
         hobbies: [
-            { name: 'Programming', icon: 'Code' },
-            { name: 'Gaming', icon: 'Gamepad2' },
+            { name: 'Gaming', description: '', icon: 'Gamepad2' },
             {
                 name: 'Making Music',
-                description: "I'm a guitarist",
+                description: 'Guitarist with passion',
                 icon: 'Music',
             },
-            { name: 'Hiking', icon: 'Mountain' },
+            { name: 'Hiking', description: '', icon: 'Mountain' },
             {
                 name: 'Bow Shooting',
-                description: 'not at alive things',
+                description: 'Purely on artificial targets',
                 icon: 'Target',
             },
-            { name: 'Fitness', icon: 'Dumbbell' },
+            {
+                name: 'Fitness',
+                description: 'At least i try',
+                icon: 'Dumbbell',
+            },
+            {
+                name: 'Programming',
+                description: 'Yes, even in my free time...',
+                icon: 'Code',
+            },
         ],
     },
     de: {
@@ -186,7 +194,11 @@ export const portfolioData: Record<'en' | 'de', PortfolioData> = {
                 description: 'Ausschließlich auf künstliche Ziele',
                 icon: 'Target',
             },
-            { name: 'Fitness', description: 'Ich versuchs zumindest', icon: 'Dumbbell' },
+            {
+                name: 'Fitness',
+                description: 'Ich versuchs zumindest',
+                icon: 'Dumbbell',
+            },
             {
                 name: 'Programmieren',
                 description: 'Ja, auch in meiner Freizeit...',
