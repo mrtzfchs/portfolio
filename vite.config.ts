@@ -29,7 +29,7 @@ export default defineConfig({
         }),
         wayfinder({
             formVariants: true,
-            command: './vendor/bin/sail artisan wayfinder:generate',
+            command: 'php artisan wayfinder:generate',
         }),
     ],
 });
