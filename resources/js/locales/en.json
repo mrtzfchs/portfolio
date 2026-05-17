@@ -1,14 +1,22 @@
 {
     "nav": {
         "projects": "Projects",
+        "about": "About",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "hobbies": "Hobbies",
+        "switch_language": "Switch Language"
     },
     "hero": {
         "hi": "Hi, I'm",
         "contact": "Contact Me",
         "github": "GitHub",
-        "linkedin": "LinkedIn"
+        "linkedin": "LinkedIn",
+        "xing": "Xing"
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "Beyond the desk & code."
     },
     "projects": {
         "title": "Projects",
@@ -22,7 +30,17 @@
         "title": "Experience & Education",
         "subtitle": "A timeline of my professional milestones and educational background."
     },
+    "hobbies": {
+        "title": "Hobbies & Interests",
+        "subtitle": "What I do when I'm not coding."
+    },
     "footer": {
         "built_with": "Built with Laravel, Vue.js, and Tailwind CSS."
+    },
+    "theme": {
+        "toggle": "Toggle Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
     }
 }
