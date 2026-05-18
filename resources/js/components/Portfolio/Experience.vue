@@ -12,7 +12,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-    <section id="experience" class="py-24 relative overflow-hidden">
+    <section id="experience" class="py-24 relative">
         <div class="absolute -bottom-1/4 -right-1/4 w-1/2 h-1/2 bg-purple-accent/5 blur-[120px] rounded-full pointer-events-none"></div>
         <AnimateOnShow>
             <div class="mb-16 text-center relative z-10">

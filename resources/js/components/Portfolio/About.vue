@@ -11,7 +11,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-    <section id="about" class="py-24 relative overflow-hidden">
+    <section id="about" class="py-24 relative">
         <!-- Background Decorations -->
         <div class="absolute top-1/2 right-0 -translate-y-1/2 w-96 h-96 bg-blue-accent/5 blur-[120px] rounded-full pointer-events-none"></div>
         <div class="absolute bottom-0 left-0 w-96 h-96 bg-purple-accent/5 blur-[120px] rounded-full pointer-events-none"></div>

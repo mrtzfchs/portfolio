@@ -23,7 +23,7 @@ const DynamicIcon = defineComponent({
 </script>
 
 <template>
-    <section id="hobbies" class="py-20 relative overflow-hidden">
+    <section id="hobbies" class="py-20 relative">
         <!-- Background decorative elements -->
         <div class="absolute top-1/2 left-0 -translate-y-1/2 w-96 h-96 bg-blue-accent/5 blur-[120px] rounded-full pointer-events-none"></div>
         <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-accent/5 blur-[120px] rounded-full pointer-events-none"></div>
@@ -83,7 +83,7 @@ const DynamicIcon = defineComponent({
                                 </div>
                                 
                                 <!-- Subtle hover indicator -->
-                                <div class="absolute bottom-0 left-0 h-1 w-0 bg-linear-to-r from-purple-accent to-blue-accent transition-all duration-300 group-hover:w-full rounded-full"></div>
+                                <div class="absolute bottom-0 left-6 right-6 h-0.5 bg-linear-to-r from-purple-accent to-blue-accent transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 rounded-full"></div>
                             </div>
                         </AnimateOnShow>
                     </div>
